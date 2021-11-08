@@ -60,9 +60,9 @@
         "pagerfanta/pagerfanta": "^1.1 || ^2.5",
         "pamil/phpspec-skip-example-extension": "^4.2",
         "phpspec/phpspec": "^7.0",
-        "phpstan/phpstan": "0.12.94",
-        "phpstan/phpstan-phpunit": "0.12.18",
-        "phpstan/phpstan-webmozart-assert": "0.12.13",
+        "phpstan/phpstan": "0.12.99",
+        "phpstan/phpstan-phpunit": "0.12.22",
+        "phpstan/phpstan-webmozart-assert": "0.12.16",
         "phpunit/phpunit": "^9.5",
         "sylius-labs/coding-standard": "^4.0",
         "sylius/resource-bundle": "^1.8",
@@ -72,7 +72,7 @@
         "symfony/twig-bundle": "^4.4 || ^5.3",
         "twig/extensions": "^1.5",
         "twig/twig": "^2.12 || ^3.0",
-        "vimeo/psalm": "4.9.2",
+        "vimeo/psalm": "4.11.2",
         "rector/rector": "^0.11.47"
     },
     "suggest": {
@@ -113,6 +113,9 @@
         ],
         "test-php-config": [
             "APP_ENV=test_grids_with_php_config vendor/bin/phpunit --colors=always"
+        ],
+        "test-with-grids-as-service": [
+            "APP_ENV=test_grids_as_service vendor/bin/phpunit --colors=always"
         ]
     }
 }
